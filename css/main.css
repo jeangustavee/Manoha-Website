@@ -1,0 +1,365 @@
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+a { 
+    color: #fff200;
+}
+
+a:hover {
+    color: dimgray;
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-toggler {
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.55rem;
+  line-height: 0px;
+  background: transparent;
+  border: 0px solid transparent;
+  border-radius: 0rem;
+}
+
+.navbar-inverse .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='20' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.jumbotron {
+  padding-top: 16rem;
+  padding-bottom: 10rem;
+  margin-bottom: 0;
+  background: #000 url(../img/background-manoha-2.jpg) center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 750px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+    color: #fff200;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    width: auto;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.jumbotron-text {
+    color: white;
+    text-transform: uppercase;
+    line-height:inherit;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+}
+
+.btn-primary:hover {
+    background-color: #24ba4f;
+    color: #ffffff;
+    border: 2px solid #24ba4f;
+}
+
+.into {
+    padding-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: 
+}
+
+.intro-header {
+    color: #24ba4f;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.intro-text {
+    font-size: 1.5em;
+    line-height: inherit;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.promo {
+    margin-top: 30px;
+    background-color: #24ba4f;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.promo-small {
+    display: none;
+}
+
+.promo img {
+    bottom: 0px;
+}
+
+.promo-header {
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 0.25rem;
+  margin: 20px;
+  color: white;
+}
+
+.call-to-action {
+    background-image: url(../img/money.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 415px;
+}
+
+.call-to-action h1 {
+    color: black;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+
+.call-to-action h3 {
+    color: black;
+    font-size: 1.8em;
+    color: #24ba4f;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.call-text {
+    float: right;
+    padding-top: 70px;
+    color: white;
+}
+
+
+.card-block {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+      padding: 1.25rem;
+      border: 1px solid #24ba4f; 
+      background-color: #24ba4f;
+}
+
+
+.card-title {
+  margin-bottom: 0.75rem;
+    color: #fff200;
+}
+
+/* Landscape phones and down */
+@media (max-width: 800px) { 
+.jumbotron-heading {
+    font-weight: 300;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-top: 0px;
+}
+    .jumbotron {
+    padding-top: 6rem;
+    height: 80px;
+    background-size: cover;
+    width: 100%; 
+    background: #000 url(../img/family_131902826.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 500px;
+    }
+    
+    .into {
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.intro-header {
+    color: #24ba4f;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    line-height: inherit;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }
+    
+    .call-to-action h1 {
+    color: black;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+
+    .call-to-action h3 {
+    color: black;
+    font-size: 1.8em;
+    color: #24ba4f;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+    .call-text {
+    float: right;
+    padding-top: 70px;
+    color: white;
+}
+}
+
+@media (max-width: 1200px){
+     .promo {
+    display: none;
+}
+    .promo-small{
+    background-color: #24ba4f;
+    padding-bottom: 30px;
+    position: relative;
+    display: block;
+    }
+}
+
+.services-cover {
+  padding-top: 16rem;
+  padding-bottom: 10rem;
+  margin-bottom: 0;
+  background: url(../img/taxconsultation.jpg) center center;
+  background-size: cover;
+  width: 100%;
+  max-height: 150px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+.services-text {
+    float: right;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bolder;
+    margin-top: -100px;
+}
+
+.services-body {
+   padding-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: 
+}
+
+.services-body-header {
+    color: #24ba4f;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.services-body h3 {
+    font-size: 1.5em;
+}
+
+.services-body p {
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.card-deck {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    text-align: left
+}
+
+.card-deck .card-text {
+    font-size: 1.1em;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
